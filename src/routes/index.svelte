@@ -1,5 +1,5 @@
 <script>
-	import cat from 'images/cat.jpg';
+	import rickDog from 'images/rickDog.jpg';
 </script>
 
 <style>
@@ -37,14 +37,14 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Sapper project</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Rick Dog</h1>
 
 <figure>
-	<img alt="CAT" src="{cat}">
-	<figcaption>Have fun with Sapper!</figcaption>
+	<img alt="" src="{rickDog}">
+	<figcaption>Legit rick owens dog???!</figcaption>
 </figure>
 
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
