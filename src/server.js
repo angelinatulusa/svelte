@@ -18,7 +18,7 @@ polka() // You can also use Express
 		json(),
 		sirv('static', { dev }),
 		session({
-			secret: 'conduit',
+			secret: 'hehehe',
 			resave: false,
 			saveUninitialized: true,
 			cookie: {
@@ -28,11 +28,11 @@ polka() // You can also use Express
 				path: `.sessions`
 			}),
 		}),
-			sapper.middleware({
-				session: req => ({
-					user: req.session && req.session.user,
-					token :req.session && req.session.token
-				})
+		sapper.middleware({
+			session: req => ({
+				user: req.session && req.session.user,
+				token :req.session && req.session.token
+			})
 		})
 	)
 	.listen(PORT, err => {

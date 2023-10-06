@@ -1,3 +1,10 @@
+<script context="module">
+	export  async function  preload ({params}, {token}){
+		if(token){
+			this.redirect(302,'/overview')
+		}
+	}
+</script>
 <script>
 	import { goto, stores } from '@sapper/app';
 	import { post } from 'utils.js';
@@ -16,13 +23,13 @@
 		console.log(response)
 		if (response.token) {
 			$session.token = response.token;
-			goto('/');
+			goto('/overview');
 		}
 	}
 </script>
 
 <svelte:head>
-	<title>Sign in • Conduit</title>
+	<title>Sign in • hehe   </title>
 </svelte:head>
 
 <div class="auth-page">

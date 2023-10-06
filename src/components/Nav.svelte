@@ -1,13 +1,14 @@
 <script>
-	export let segment;
-	import {goto , stores} from '@sapper/app';
-	import {post} from 'utils.js'
 
+	import {goto , stores} from '@sapper/app';
 	const {page , session} = stores();
+	import {post} from 'api.js'
+	export let segment;
+
 
 	async function logout(){
 	await post('auth/logout');
-	$session.user = null;
+	$session.token   = null;
 	goto('/');
 	}
 
@@ -61,7 +62,12 @@
 
 <nav>
 	<ul>
-		<li><a aria-current="{segment === 'register' ? 'page' : undefined}" href="register">register</a></li>
-		<li><a aria-current="{segment === 'login' ? 'page' : undefined}" href="login">login</a></li>
+		{#if $session.token}
+		    <li><a aria-current="{segment === 'register' ? 'page' : undefined}" href="overview">Overview</a></li>
+			<li><a aria-current="{segment === 'logout' ? 'page' : undefined}" href="logout" on:click|preventDefault={logout}>logout</a></li>
+		{:else }
+			<li><a aria-current="{segment === 'register' ? 'page' : undefined}" href="register">register</a></li>
+			<li><a aria-current="{segment === 'login' ? 'page' : undefined}" href="login">login</a></li>
+		{/if}
 	</ul>
 </nav>

@@ -4,16 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d853557-7e39-4f6c-854b-e5469be9b5dd" name="Changes" comment="a" />
+    <list default="true" id="63e8d73b-73ad-41b3-bb50-859274dde4dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sessions/4lO6DhlaTYryq0deTOq1bC5NCb-bK6zl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sessions/GHSe2d8wk6Twqopv9ii2s7QLMhQ0dGeB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sessions/vZKpQlVvQclnf-GOV1o9Z3FKFFdZ7Clc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/setupTypeScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/setupTypeScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ambient.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ambient.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/_error.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/_error.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/_layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/_layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/auth/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/auth/logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth/logout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/auth/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/[slug].json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/[slug].json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/[slug].svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/[slug].svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/_posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/_posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/index.json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/index.json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/login.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/login.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/register.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/register.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/manifest.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="#186198818_An-a-user-i-see-on-overview-page" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -21,40 +63,42 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2WNTDJTVNZg8PwHUK9mgP7AZnQa" />
+  <component name="ProjectId" id="2WNZzIYxqvWQG6RYv2k3F26OQ4K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\opilane\\AppData\\Local\\JetBrains\\Toolbox\\apps\\PhpStorm\\ch-0\\232.9921.55\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aa155c76-62f9-4e56-9c18-e935212e3cd0" name="Changes" comment="" />
-      <created>1696571916667</created>
+      <changelist id="63e8d73b-73ad-41b3-bb50-859274dde4dd" name="Changes" comment="" />
+      <created>1696575259953</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1696571916667</updated>
-      <workItem from="1696571918211" duration="75000" />
+      <updated>1696575259953</updated>
+      <workItem from="1696575262229" duration="162000" />
+      <workItem from="1696575454694" duration="21000" />
+      <workItem from="1696575504357" duration="4247000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>

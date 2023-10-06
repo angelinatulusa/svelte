@@ -195,9 +195,9 @@ function updateWebpackConfig() {
 			`entry: { 'service-worker': config.serviceworker.entry()['service-worker'].replace(/\\.js$/, '.ts') }`
 		],
 		[
-      /loader: 'svelte-loader',\n\t\t\t\t\t\toptions: {/g,
-      'loader: \'svelte-loader\',\n\t\t\t\t\t\toptions: {\n\t\t\t\t\t\t\tpreprocess: sveltePreprocess({ sourceMap: dev }),'
-    ],
+			/loader: 'svelte-loader',\n\t\t\t\t\t\toptions: {/g,
+			'loader: \'svelte-loader\',\n\t\t\t\t\t\toptions: {\n\t\t\t\t\t\t\tpreprocess: sveltePreprocess({ sourceMap: dev }),'
+		],
 		// Add TypeScript rules for client and server
 		[
 			/module: {\n\s*rules: \[\n\s*(?!{\n\s*test: \/\\\.ts\$\/)/g,
