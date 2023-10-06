@@ -1,6 +1,5 @@
 <script>
 	import { goto, stores } from '@sapper/app';
-	import ListErrors from '../components/ListErrors.svelte';
 	import { post } from '../node_modules/utils.js';
 
 	const { session } = stores();
@@ -16,13 +15,13 @@
 		error = response.error;
 
 		if (response.id) {
-			goto('/');
+			goto('/login');
 		}
 	}
 </script>
 
 <svelte:head>
-	<title>Sign up • Conduit</title>
+	<title>Sign up • hehe</title>
 </svelte:head>
 
 <div class="auth-page">
